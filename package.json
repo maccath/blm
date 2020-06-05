@@ -50,7 +50,19 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/emoji-cz",
-      "format": "[emoji] [name]: [subject]"
+      "format": "[emoji] [name]: [subject]",
+      "emoji-cz": {
+        "types": {
+          "Configuration": {
+            "emoji": "🔧",
+            "description": "Changing configuration files."
+          },
+          "Text": {
+            "emoji": "💬",
+            "description": "Updating text and literals."
+          }
+        }
+      }
     }
   },
   "husky": {
