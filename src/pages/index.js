@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Black Lives Matter" />
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
@@ -21,7 +21,7 @@ const IndexPage = () => (
       - but society is at a tipping point, and if we act <strong>now</strong> we
       can collectively make real change.
     </p>
-    <Link to="/page-2">Next</Link> <br />
+    <Link to="/im-not-racist">Next</Link> <br />
   </Layout>
 )
 
