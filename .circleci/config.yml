@@ -16,4 +16,5 @@ workflows:
     build-and-test:
       jobs:
         - build-and-test
-        - cypress/run
+        - cypress/run:
+            yarn: true
