@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="css-1bxtzlt"
+>
+  <p>
+    Compiled by 
+    <a
+      href="http://katy-ereira.co.uk"
+    >
+      Katy Ereira
+    </a>
+     /
+     
+    <a
+      href="http://twitter.com/maccath"
+    >
+      @maccath
+    </a>
+     | Fist icon by
+     
+    <a
+      href="https://thenounproject.com/cesarreynoso562/"
+    >
+      Cesar Reynoso
+    </a>
+  </p>
+</footer>
+`;

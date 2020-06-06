@@ -27,12 +27,18 @@
     "tailwindcss": "^1.4.6"
   },
   "devDependencies": {
+    "babel-jest": "^26.0.1",
+    "babel-preset-gatsby": "^0.4.8",
     "commitizen": "^4.1.2",
     "cypress": "^4.7.0",
     "cypress-axe": "^0.8.1",
     "emoji-cz": "^0.3.1",
     "husky": "^4.2.5",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.0.1",
+    "jest-styled-components": "^7.0.2",
     "prettier": "2.0.5",
+    "react-test-renderer": "^16.13.1",
     "twin.macro": "^1.3.0"
   },
   "keywords": [
@@ -49,8 +55,11 @@
     "clean": "gatsby clean",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
-    "test": "yarn run test:e2e"
+    "test:e2e": "test:e2e:open",
+    "test:e2e:open": "start-server-and-test develop http://localhost:8000 cy:open",
+    "test:e2e:run": "start-server-and-test develop http://localhost:8000 cy:run",
+    "test:unit": "jest",
+    "test": "yarn run test:unit && yarn run test:e2e:run"
   },
   "repository": {
     "type": "git",
