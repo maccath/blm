@@ -19,3 +19,4 @@ workflows:
         - cypress/run:
             executor: cypress/base-12-16-1
             yarn: true
+            command: yarn run test:e2e:run
