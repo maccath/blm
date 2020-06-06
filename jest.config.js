@@ -1,6 +1,10 @@
+const { defaults } = require("jest-config")
+
 module.exports = {
+  moduleFileExtensions: [...defaults.moduleFileExtensions, "mdx"],
   transform: {
     "^.+\\.jsx?$": `<rootDir>/jest-preprocess.js`,
+    "^.+\\.(md|mdx)$": "jest-transformer-mdx/cra",
   },
   moduleNameMapper: {
     ".+\\.(css|styl|less|sass|scss)$": `identity-obj-proxy`,
