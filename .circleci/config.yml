@@ -16,8 +16,8 @@ workflows:
     build-and-test:
       jobs:
         - unit-tests
-        - e2e-tests:
-          - cypress/run:
-              executor: cypress/base-12-16-1
-              yarn: true
-              command: yarn run test:e2e:run
+        - cypress/run:
+            name: e2e-tests
+            executor: cypress/base-12-16-1
+            yarn: true
+            command: yarn run test:e2e:run
