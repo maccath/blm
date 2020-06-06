@@ -12,16 +12,12 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn run test:unit
-  e2e-tests:
-    executor:
-      name: cypress/default
-    steps:
-      - cypress/run:
-          executor: cypress/base-12-16-1
-          yarn: true
-          command: yarn run test:e2e:run
 workflows:
     build-and-test:
       jobs:
         - unit-tests
-        - e2e-tests
+        - e2e-tests:
+          - cypress/run:
+              executor: cypress/base-12-16-1
+              yarn: true
+              command: yarn run test:e2e:run
