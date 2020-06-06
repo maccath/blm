@@ -1,7 +1,7 @@
 import React from "react"
 import tw from "twin.macro"
 
-const Container = tw.div`
+const Container = tw.footer`
   mt-10 text-sm text-center
 `
 

@@ -25,10 +25,12 @@ const Cta = tw.p`
 const IndexPage = () => (
   <Layout>
     <SEO title="Black Lives Matter" />
-    <Logo>
-      <Image />
-    </Logo>
-    <Heading>Black Lives Matter</Heading>
+    <header>
+      <Logo>
+        <Image />
+      </Logo>
+      <Heading>Black Lives Matter</Heading>
+    </header>
     <Cta>
       <a href="https://edition.cnn.com/us/live-news/george-floyd-protests-06-03-20/index.html">
         Civil rights protests are occurring
@@ -41,7 +43,7 @@ const IndexPage = () => (
     <div className="mt-6 flex space-x-4 justify-center">
       <Link
         to="/im-not-racist"
-        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+        className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
       >
         Get Started &raquo;
       </Link>
