@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index page renders correctly 1`] = `
+.c1 {
+  -webkit-letter-spacing: 0.45rem;
+  -moz-letter-spacing: 0.45rem;
+  -ms-letter-spacing: 0.45rem;
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+  font-size: 3.375em;
+  text-align: center;
+}
+
+.c0 {
+  max-width: 200px;
+  margin: 0 auto 1.45rem auto;
+}
+
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+      "maxWidth": 960,
+      "padding": "0 1.0875rem 1.45rem",
+    }
+  }
+>
+  <main>
+    <header>
+      <div
+        className="c0"
+      >
+        <div
+          className=" gatsby-image-wrapper"
+          style={
+            Object {
+              "maxHeight": null,
+              "maxWidth": null,
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <div
+            aria-hidden={true}
+            style={
+              Object {
+                "paddingBottom": "100%",
+                "width": "100%",
+              }
+            }
+          />
+          <img
+            alt=""
+            aria-hidden={true}
+            src="data:image/png;base64,iVBORw0KG"
+            style={
+              Object {
+                "height": "100%",
+                "left": 0,
+                "objectFit": "cover",
+                "objectPosition": "center",
+                "opacity": 1,
+                "position": "absolute",
+                "top": 0,
+                "transitionDelay": "500ms",
+                "width": "100%",
+              }
+            }
+          />
+          <picture>
+            <source
+              sizes="(max-width: 200px) 100vw, 200px"
+              srcSet="icon.png 50w, icon.png 100w"
+            />
+            <img
+              alt=""
+              loading="lazy"
+              onLoad={[Function]}
+              sizes="(max-width: 200px) 100vw, 200px"
+              src="icon.png"
+              srcSet="icon.png 50w, icon.png 100w"
+              style={
+                Object {
+                  "height": "100%",
+                  "left": 0,
+                  "objectFit": "cover",
+                  "objectPosition": "center",
+                  "opacity": 0,
+                  "position": "absolute",
+                  "top": 0,
+                  "transition": "opacity 500ms",
+                  "width": "100%",
+                }
+              }
+            />
+          </picture>
+          <noscript
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "<picture><source srcset=\\"icon.png 50w, icon.png 100w\\" sizes=\\"(max-width: 200px) 100vw, 200px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 200px) 100vw, 200px\\" srcset=\\"icon.png 50w, icon.png 100w\\" src=\\"icon.png\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+              }
+            }
+          />
+        </div>
+      </div>
+      <h1
+        className="c1"
+      >
+        Black Lives Matter
+      </h1>
+    </header>
+    <p
+      className="css-72c57t"
+    >
+      <a
+        href="https://edition.cnn.com/us/live-news/george-floyd-protests-06-03-20/index.html"
+      >
+        Civil rights protests are occurring
+      </a>
+       
+      across the US and the world in response to police brutality against Black people; most recently, the death of George Floyd. Racism is not a new idea - but society is at a tipping point, and if we act 
+      <strong>
+        now
+      </strong>
+       we can collectively make real change.
+    </p>
+    <div
+      className="mt-6 flex space-x-4 justify-center"
+    >
+      <a
+        className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+        href="/im-not-racist"
+      >
+        Get Started »
+      </a>
+    </div>
+  </main>
+  <footer
+    className="css-1bxtzlt"
+  >
+    <p>
+      Compiled by 
+      <a
+        href="http://katy-ereira.co.uk"
+      >
+        Katy Ereira
+      </a>
+       /
+       
+      <a
+        href="http://twitter.com/maccath"
+      >
+        @maccath
+      </a>
+       | Fist icon by
+       
+      <a
+        href="https://thenounproject.com/cesarreynoso562/"
+      >
+        Cesar Reynoso
+      </a>
+    </p>
+  </footer>
+</div>
+`;

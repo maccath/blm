@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`What To Do page renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "margin": "0 auto",
+      "maxWidth": 960,
+      "padding": "0 1.0875rem 1.45rem",
+    }
+  }
+>
+  <main>
+    <h1>
+      But what can I do about it?
+    </h1>
+    <p>
+      If you've read this far; you've already done some valuable work. Acknowledging your white privilege and the existence of white supremacist culture is the first step on the journey to being actively anti-racist as opposed to just not being racist.
+    </p>
+    <p>
+      Standing in solidarity with those who are experiencing oppression does not need to be at the expense of other causes. There are many things we can do to stand on the right side of history as it unfolds.
+    </p>
+    <p>
+      I encourage you to keep this in mind as you navigate the world from now on. You may leave here, or stay for some more ideas and resources to put anti-racism into action.
+    </p>
+    <div
+      className="mt-6 flex space-x-4"
+    >
+      <a
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+        href="/donate"
+      >
+        I have some spare cash.
+      </a>
+      <a
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+        href="/learn"
+      >
+        I care and want to learn more.
+      </a>
+      <a
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+        href="/amplify"
+      >
+        I'd like to show solidarity.
+      </a>
+    </div>
+  </main>
+  <footer
+    className="css-1bxtzlt"
+  >
+    <p>
+      Compiled by 
+      <a
+        href="http://katy-ereira.co.uk"
+      >
+        Katy Ereira
+      </a>
+       /
+       
+      <a
+        href="http://twitter.com/maccath"
+      >
+        @maccath
+      </a>
+       | Fist icon by
+       
+      <a
+        href="https://thenounproject.com/cesarreynoso562/"
+      >
+        Cesar Reynoso
+      </a>
+    </p>
+  </footer>
+</div>
+`;
