@@ -1,0 +1,10 @@
+html {
+    height: 100%;
+    background-color: #045359;
+    background-image: linear-gradient(45deg, #503157 33%, #045359 100%);
+    background-attachment: fixed;
+}
+body {
+    padding-top: 30px;
+    color: white;
+}

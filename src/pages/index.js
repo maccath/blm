@@ -1,17 +1,29 @@
 import React from "react"
 import { Link } from "gatsby"
-
+import styled from "styled-components"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+const Heading = styled.h1`
+  letter-spacing: 0.45rem;
+  text-transform: uppercase;
+  font-size: 3.375em;
+  text-align: center;
+`
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Black Lives Matter" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div
+      style={{
+        maxWidth: `200px`,
+        margin: `0 auto 1.45rem auto`,
+      }}
+    >
       <Image />
     </div>
-    <h1>Black Lives Matter</h1>
+    <Heading>Black Lives Matter</Heading>
     <p>
       <a href="https://edition.cnn.com/us/live-news/george-floyd-protests-06-03-20/index.html">
         Civil rights protests are occurring
