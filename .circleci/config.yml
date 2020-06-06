@@ -17,4 +17,5 @@ workflows:
       jobs:
         - build-and-test
         - cypress/run:
+            executor: cypress/base-12-16-1
             yarn: true
