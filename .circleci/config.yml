@@ -1,5 +1,6 @@
 version: 2.1
 orbs:
+  node: circleci/node@1.1.6
   cypress: cypress-io/cypress@1
 jobs:
   build-and-test:
@@ -10,7 +11,8 @@ jobs:
       - node/with-cache:
           steps:
             - run: yarn install
-            - run: yarn run test
+            - run: yarn run test:unit
+      - cypress/run
 workflows:
     build-and-test:
       jobs:
