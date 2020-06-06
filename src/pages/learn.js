@@ -121,11 +121,20 @@ const Learn = () => (
         </p>
       </li>
     </ul>
-    <Link to="/donate">I have some spare cash.</Link>
-    <br />
-    <Link to="/learn">I care and want to learn more.</Link>
-    <br />
-    <Link to="/amplify">I'd like to show solidarity.</Link>
+    <div className="mt-6 flex space-x-4">
+      <Link
+        to="/donate"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        I have some spare cash.
+      </Link>
+      <Link
+        to="/amplify"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        I'd like to show solidarity.
+      </Link>
+    </div>
   </Layout>
 )
 

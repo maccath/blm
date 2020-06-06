@@ -35,7 +35,14 @@ const WhitePrivilege = () => (
         </a>
       </li>
     </ul>
-    <Link to="/why-care">Ok, next.</Link> <br />
+    <div className="mt-6 flex space-x-4">
+      <Link
+        to="/why-care"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        Ok, next.
+      </Link>
+    </div>
   </Layout>
 )
 

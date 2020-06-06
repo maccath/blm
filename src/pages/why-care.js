@@ -64,8 +64,20 @@ const WhyCare = () => (
         Our policies and actions can and do make a difference around the world.
       </strong>
     </p>
-    <Link to="/who-cares">Why should I take it from you?</Link> <br />
-    <Link to="/what-to-do">That's pretty damning.</Link>
+    <div class="mt-6 flex space-x-4">
+      <Link
+        to="/who-cares"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        Why should I take it from you?
+      </Link>
+      <Link
+        to="/what-to-do"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        That's pretty damning.
+      </Link>
+    </div>
   </Layout>
 )
 

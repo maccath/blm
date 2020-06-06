@@ -1,8 +1,8 @@
 import React from "react"
-import styled from "styled-components"
+import tw from "twin.macro"
 
-const Container = styled.div`
-  margin-top: 3rem;
+const Container = tw.div`
+  mt-10 text-sm text-center
 `
 
 export default function Footer() {

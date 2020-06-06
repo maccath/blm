@@ -76,10 +76,20 @@ const Donate = () => (
       </strong>{" "}
       - to address the lack of Black British history in the UK Curriculum.
     </p>
-
-    <Link to="/learn">I care and want to learn more.</Link>
-    <br />
-    <Link to="/amplify">I'd like to show solidarity.</Link>
+    <div className="mt-6 flex space-x-4">
+      <Link
+        to="/learn"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        I care and want to learn more.
+      </Link>
+      <Link
+        to="/amplify"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        I'd like to show solidarity.
+      </Link>
+    </div>
   </Layout>
 )
 

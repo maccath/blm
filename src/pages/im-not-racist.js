@@ -31,8 +31,20 @@ const ImNotRacist = () => (
       the hand we were dealt in life. It just means that we have an advantage.
       We are able to use this advantage for social good.
     </p>
-    <Link to="/white-privilege">Not convinced. Can I learn more?</Link> <br />
-    <Link to="/why-care">I get it.</Link> <br />
+    <div className="mt-6 flex space-x-4">
+      <Link
+        to="/white-privilege"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        Not convinced. Can I learn more?
+      </Link>
+      <Link
+        to="/why-care"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        I get it.
+      </Link>
+    </div>
   </Layout>
 )
 

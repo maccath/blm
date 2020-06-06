@@ -78,7 +78,14 @@ const WhoCares = () => (
       </a>
       ?
     </p>
-    <Link to="/what-to-do">Yeah, OK, but what can I do about it?</Link>
+    <div className="mt-6 flex space-x-4">
+      <Link
+        to="/what-to-do"
+        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+      >
+        Yeah, OK, but what can I do about it?
+      </Link>
+    </div>
   </Layout>
 )
 
