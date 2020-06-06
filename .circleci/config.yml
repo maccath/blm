@@ -3,7 +3,7 @@ orbs:
   node: circleci/node@1.1.6
   cypress: cypress-io/cypress@1
 jobs:
-  build-and-test:
+  unit-tests:
     executor:
       name: node/default
     steps:
@@ -12,11 +12,13 @@ jobs:
           steps:
             - run: yarn install
             - run: yarn run test:unit
+  e2e-tests:
+    cypress/run:
+      executor: cypress/base-12-16-1
+      yarn: true
+      command: yarn run test:e2e:run
 workflows:
     build-and-test:
       jobs:
-        - build-and-test
-        - cypress/run:
-            executor: cypress/base-12-16-1
-            yarn: true
-            command: yarn run test:e2e:run
+        - unit-tests
+        - e2e-tests
