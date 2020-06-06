@@ -17,14 +17,14 @@ exports[`White Privilege page renders correctly 1`] = `
     <ul>
       <li>
         <a
-          href="https://everydayfeminism.com/2014/09/white-privilege-explained/"
+          href="https://everydayfeminism.com/2014/09/white-privilege-explained/white-privilege.mdx"
         >
           White Privilege Explained - in Comic Form
         </a>
       </li>
       <li>
         <a
-          href="http://www.raceconscious.org/2017/07/race-matters-story-white-privilege/"
+          href="http://www.raceconscious.org/2017/07/race-matters-story-white-privilege"
         >
           Race Matters - A Story About White Privilege
         </a>

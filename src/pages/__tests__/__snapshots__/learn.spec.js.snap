@@ -15,7 +15,8 @@ exports[`Learn page renders correctly 1`] = `
       Learn
     </h1>
     <p>
-      There are a number of books and documentaries that explain white supremacy and focus on anti-racist education.
+      There are a number of books and documentaries that explain white supremacy
+and focus on anti-racist education.
     </p>
     <h2>
       Watch and listen
@@ -42,13 +43,6 @@ exports[`Learn page renders correctly 1`] = `
         width="560"
       />
     </div>
-    <p>
-      <a
-        href="https://www.netflix.com/gb/title/80091741"
-      >
-        Watch 13TH on Netflix
-      </a>
-    </p>
     <div>
       <iframe
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -60,38 +54,43 @@ exports[`Learn page renders correctly 1`] = `
         width="560"
       />
     </div>
-    <p>
-      <a
-        href="http://laylafsaad.com/good-ancestor-podcast"
-      >
-        The Good Ancestor Podcast
-      </a>
-    </p>
+    <ul>
+      <li>
+        <a
+          href="https://www.netflix.com/gb/title/80091741"
+        >
+          Watch 13TH on Netflix
+        </a>
+      </li>
+      <li>
+        <a
+          href="http://laylafsaad.com/good-ancestor-podcast"
+        >
+          The Good Ancestor Podcast
+        </a>
+      </li>
+    </ul>
     <h2>
-      Articles & Opinions
+      Articles 
+      &
+       Opinions
     </h2>
     <ul>
       <li>
-        <p>
-          <a
-            href="https://www.theguardian.com/commentisfree/2020/jun/03/racism-george-floyd-britain-america-uk-black-people#maincontent"
-          >
-            The racism that killed George Floyd was built in Britain
-          </a>
-           
-          - Afua Hirsch
-        </p>
+        <a
+          href="https://www.theguardian.com/commentisfree/2020/jun/03/racism-george-floyd-britain-america-uk-black-people#maincontent"
+        >
+          The racism that killed George Floyd was built in Britain
+        </a>
+         - Afua Hirsch
       </li>
       <li>
-        <p>
-          <a
-            href="https://www.vogue.co.uk/arts-and-lifestyle/article/non-optical-ally-guide"
-          >
-            If You Are White And Anti-Racist, This Non-Optical Allyship Guide Is Required Reading
-          </a>
-           
-          - Mireille Cassandra Harper
-        </p>
+        <a
+          href="https://www.vogue.co.uk/arts-and-lifestyle/article/non-optical-ally-guide"
+        >
+          If You Are White And Anti-Racist, This Non-Optical Allyship Guide Is Required Reading
+        </a>
+         - Mireille Cassandra Harper
       </li>
     </ul>
     <h2>
@@ -99,59 +98,45 @@ exports[`Learn page renders correctly 1`] = `
     </h2>
     <ul>
       <li>
-        <p>
-          <a
-            href="https://www.hive.co.uk/Product/Robin-DiAngelo/White-Fragility--Why-Its-So-Hard-for-White-People-to-Talk-About-Racism/23286943"
-          >
-            White Fragility - Why It's So Hard For White People To Talk About Racism
-          </a>
-           
-          by Robin DiAngelo
-        </p>
+        <a
+          href="https://www.hive.co.uk/Product/Robin-DiAngelo/White-Fragility--Why-Its-So-Hard-for-White-People-to-Talk-About-Racism/23286943"
+        >
+          White Fragility - Why It's So Hard For White People To Talk About
+Racism
+        </a>
+         by Robin DiAngelo
       </li>
       <li>
-        <p>
-          <a
-            href="https://www.hive.co.uk/Product/Layla-Saad/Me-and-White-Supremacy--How-to-Recognise-Your-Privilege-C/24440368"
-          >
-            Me and White Supremacy: How to Recognise Your Privilege, Combat Racism and Change the World
-          </a>
-           
-          by Layla F Saad
-        </p>
+        <a
+          href="https://www.hive.co.uk/Product/Layla-Saad/Me-and-White-Supremacy--How-to-Recognise-Your-Privilege-C/24440368"
+        >
+          Me and White Supremacy: How to Recognise Your Privilege, Combat Racism and Change the World
+        </a>
+         by Layla F Saad
       </li>
       <li>
-        <p>
-          <a
-            href="https://www.hive.co.uk/Product/Ibram-X-Kendi/How-To-Be-an-Antiracist/23804402"
-          >
-            How To Be An Antiracist
-          </a>
-           
-          by Ibram X Kendi
-        </p>
+        <a
+          href="https://www.hive.co.uk/Product/Ibram-X-Kendi/How-To-Be-an-Antiracist/23804402"
+        >
+          How To Be An Antiracist
+        </a>
+         by Ibram X Kendi
       </li>
       <li>
-        <p>
-          <a
-            href="https://www.hive.co.uk/Product/Ijeoma-Oluo/So-You-Want-to-Talk-About-Race/24581698"
-          >
-            So You Want To Talk About Race
-          </a>
-           
-          by Ijeoma Oluo
-        </p>
+        <a
+          href="https://www.hive.co.uk/Product/Ijeoma-Oluo/So-You-Want-to-Talk-About-Race/24581698"
+        >
+          So You Want To Talk About Race
+        </a>
+         by Ijeoma Oluo
       </li>
       <li>
-        <p>
-          <a
-            href="https://www.hive.co.uk/Product/Reni-Eddo-Lodge/Why-Im-No-Longer-Talking-to-White-People-About-Race--The-/21140288"
-          >
-            Why I'm No Longer Talking To White People About Race
-          </a>
-           
-          by Reni Eddo-Lodge
-        </p>
+        <a
+          href="https://www.hive.co.uk/Product/Reni-Eddo-Lodge/Why-Im-No-Longer-Talking-to-White-People-About-Race--The-/21140288"
+        >
+          Why I'm No Longer Talking To White People About Race
+        </a>
+         by Reni Eddo-Lodge
       </li>
     </ul>
     <div
