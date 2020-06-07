@@ -10,6 +10,8 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=shield)](https://circleci.com/gh/maccath/blm)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bfff24587af32f7c344f/maintainability)](https://codeclimate.com/github/maccath/blm/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/bfff24587af32f7c344f/test_coverage)](https://codeclimate.com/github/maccath/blm/test_coverage)
 
 <p align="center">
   A Black Lives Matter conversation-starter and compilation of UK-centric anti-racist resources.
