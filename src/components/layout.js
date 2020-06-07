@@ -9,7 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import { MDXProvider } from "@mdx-js/react"
+
 import Footer from "./footer"
+import SEO from "./seo"
+import { Link } from "gatsby"
+
+const shortcodes = { Link, SEO }
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -24,16 +30,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <Footer></Footer>
-      </div>
+      <MDXProvider components={shortcodes}>
+        <div
+          style={{
+            margin: `0 auto`,
+            maxWidth: 960,
+            padding: `0 1.0875rem 1.45rem`,
+          }}
+        >
+          <main>{children}</main>
+          <Footer></Footer>
+        </div>
+      </MDXProvider>
     </>
   )
 }

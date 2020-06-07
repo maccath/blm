@@ -5,6 +5,7 @@ import "jest-styled-components"
 import baseData from "../../../__mocks__/baseData"
 
 import WhoCares from "../who-cares"
+import Layout from "../../components/layout"
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => baseData)
@@ -12,7 +13,13 @@ beforeEach(() => {
 
 describe("Who Cares? page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<WhoCares />).toJSON()
+    const tree = renderer
+      .create(
+        <Layout>
+          <WhoCares />
+        </Layout>
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 })

@@ -5,6 +5,7 @@ import "jest-styled-components"
 import baseData from "../../../__mocks__/baseData"
 
 import ImNotRacist from "../im-not-racist"
+import Layout from "../../components/layout"
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => baseData)
@@ -12,7 +13,13 @@ beforeEach(() => {
 
 describe("I'm Not Racist page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<ImNotRacist />).toJSON()
+    const tree = renderer
+      .create(
+        <Layout>
+          <ImNotRacist />
+        </Layout>
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
