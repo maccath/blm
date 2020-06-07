@@ -15,7 +15,7 @@ jobs:
             - run: ./cc-test-reporter before-build
             - run: yarn install
             - run: yarn run test:unit --coverage
-            - run: ./cc-test-reporter after-build --coverage-input-type lcov -o coverage/frontend/lcov.info --exit-code $?
+            - run: ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?
 workflows:
     build-and-test:
       jobs:
