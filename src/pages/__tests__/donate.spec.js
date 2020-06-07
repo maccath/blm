@@ -5,6 +5,7 @@ import "jest-styled-components"
 import baseData from "../../../__mocks__/baseData"
 
 import Donate from "../donate"
+import Layout from "../../components/layout"
 
 beforeEach(() => {
   useStaticQuery.mockImplementation(() => baseData)
@@ -12,7 +13,13 @@ beforeEach(() => {
 
 describe("Donate page", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<Donate />).toJSON()
+    const tree = renderer
+      .create(
+        <Layout>
+          <Donate />
+        </Layout>
+      )
+      .toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
