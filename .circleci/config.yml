@@ -10,8 +10,12 @@ jobs:
       - checkout
       - node/with-cache:
           steps:
+            - run: curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+            - run: chmod +x ./cc-test-reporter
+            - run: ./cc-test-reporter before-build
             - run: yarn install
-            - run: yarn run test:unit
+            - run: yarn run test:unit --coverage
+            - run: ./cc-test-reporter after-build --coverage-input-type lcov --exit-code $?
 workflows:
     build-and-test:
       jobs:
