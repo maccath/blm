@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <PageTransition>
+      <PageTransition transitionTime={500}>
         <MDXProvider components={shortcodes}>
           <div
             style={{
