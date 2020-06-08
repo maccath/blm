@@ -38,28 +38,28 @@ to stand on the right side of history as it unfolds.
 on. You may leave here, or stay for some more ideas and resources to put
 anti-racism into action.
       </p>
-      <div
-        className="mt-6 flex space-x-4"
+      <nav
+        className="css-1b6p5hc"
       >
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/donate"
         >
           I have some spare cash.
         </a>
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/learn"
         >
           I care and want to learn more.
         </a>
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/amplify"
         >
           I'd like to show solidarity.
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"

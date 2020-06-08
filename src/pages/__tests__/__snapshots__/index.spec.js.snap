@@ -133,8 +133,8 @@ exports[`Index page renders correctly 1`] = `
         </strong>
          we can collectively make real change.
       </p>
-      <div
-        className="mt-6 flex space-x-4 justify-center"
+      <nav
+        className="justify-center css-1b6p5hc"
       >
         <a
           className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
@@ -142,7 +142,7 @@ exports[`Index page renders correctly 1`] = `
         >
           Get Started »
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"

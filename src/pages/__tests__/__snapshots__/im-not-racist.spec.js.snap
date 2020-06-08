@@ -45,22 +45,22 @@ ability, or the privilege of being male.
 the hand we were dealt in life. It just means that we have an advantage.
 We are able to use this advantage for social good.
       </p>
-      <div
-        className="mt-6 flex space-x-4"
+      <nav
+        className="css-1b6p5hc"
       >
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/white-privilege"
         >
           Not convinced. Can I learn more?
         </a>
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/why-care"
         >
           I get it.
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"

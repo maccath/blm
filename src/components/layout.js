@@ -15,8 +15,9 @@ import Footer from "./footer"
 import SEO from "./seo"
 import { Link } from "gatsby"
 import PageTransition from "gatsby-plugin-page-transitions"
+import ButtonBar from "./ButtonBar"
 
-const shortcodes = { Link, SEO }
+const shortcodes = { Link, SEO, ButtonBar }
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
