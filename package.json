@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Katy Ereira <katy.ereira@gmail.com>",
   "dependencies": {
+    "@icons-pack/react-simple-icons": "^3.2.0",
     "@mdx-js/mdx": "^1.6.5",
     "@mdx-js/react": "^1.6.5",
     "babel-plugin-styled-components": "^1.10.7",
