@@ -4,89 +4,98 @@ exports[`White Privilege page renders correctly 1`] = `
 <div
   style={
     Object {
-      "margin": "0 auto",
-      "maxWidth": 960,
-      "padding": "0 1.0875rem 1.45rem",
+      "opacity": 1,
+      "transition": "opacity 500ms ease-in-out",
     }
   }
 >
-  <main>
-    <h1>
-      White privilege?
-    </h1>
-    <ul>
-      <li>
-        <a
-          href="https://everydayfeminism.com/2014/09/white-privilege-explained/white-privilege.mdx"
-        >
-          White Privilege Explained - in Comic Form
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://www.raceconscious.org/2017/07/race-matters-story-white-privilege"
-        >
-          Race Matters - A Story About White Privilege
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.tolerance.org/magazine/fall-2018/what-is-white-privilege-really"
-        >
-          What is White Privilege?
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://goodmenproject.com/featured-content/white-fragility-why-its-so-hard-to-talk-to-white-people-about-racism-twlm/"
-        >
-          Why it's so hard to talk to white people about racism
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://www.theatlantic.com/politics/archive/2017/10/the-language-of-white-supremacy/542148/"
-        >
-          The Language of White Supremacy
-        </a>
-      </li>
-    </ul>
-    <div
-      className="mt-6 flex space-x-4"
-    >
-      <a
-        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
-        href="/why-care"
-      >
-        Ok, next.
-      </a>
-    </div>
-  </main>
-  <footer
-    className="css-1bxtzlt"
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "0 1.0875rem 1.45rem",
+      }
+    }
   >
-    <p>
-      Compiled by 
-      <a
-        href="http://katy-ereira.co.uk"
+    <main>
+      <h1>
+        White privilege?
+      </h1>
+      <ul>
+        <li>
+          <a
+            href="https://everydayfeminism.com/2014/09/white-privilege-explained/white-privilege.mdx"
+          >
+            White Privilege Explained - in Comic Form
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://www.raceconscious.org/2017/07/race-matters-story-white-privilege"
+          >
+            Race Matters - A Story About White Privilege
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.tolerance.org/magazine/fall-2018/what-is-white-privilege-really"
+          >
+            What is White Privilege?
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://goodmenproject.com/featured-content/white-fragility-why-its-so-hard-to-talk-to-white-people-about-racism-twlm/"
+          >
+            Why it's so hard to talk to white people about racism
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.theatlantic.com/politics/archive/2017/10/the-language-of-white-supremacy/542148/"
+          >
+            The Language of White Supremacy
+          </a>
+        </li>
+      </ul>
+      <div
+        className="mt-6 flex space-x-4"
       >
-        Katy Ereira
-      </a>
-       /
-       
-      <a
-        href="http://twitter.com/maccath"
-      >
-        @maccath
-      </a>
-       | Fist icon by
-       
-      <a
-        href="https://thenounproject.com/cesarreynoso562/"
-      >
-        Cesar Reynoso
-      </a>
-    </p>
-  </footer>
+        <a
+          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          href="/why-care"
+        >
+          Ok, next.
+        </a>
+      </div>
+    </main>
+    <footer
+      className="css-1bxtzlt"
+    >
+      <p>
+        Compiled by 
+        <a
+          href="http://katy-ereira.co.uk"
+        >
+          Katy Ereira
+        </a>
+         /
+         
+        <a
+          href="http://twitter.com/maccath"
+        >
+          @maccath
+        </a>
+         | Fist icon by
+         
+        <a
+          href="https://thenounproject.com/cesarreynoso562/"
+        >
+          Cesar Reynoso
+        </a>
+      </p>
+    </footer>
+  </div>
 </div>
 `;

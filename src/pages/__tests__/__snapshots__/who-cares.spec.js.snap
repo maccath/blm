@@ -4,161 +4,170 @@ exports[`Who Cares? page renders correctly 1`] = `
 <div
   style={
     Object {
-      "margin": "0 auto",
-      "maxWidth": 960,
-      "padding": "0 1.0875rem 1.45rem",
+      "opacity": 1,
+      "transition": "opacity 500ms ease-in-out",
     }
   }
 >
-  <main>
-    <h1>
-      Why should I take it from you?
-    </h1>
-    <p>
-      Fair point.
-    </p>
-    <p>
-      Would you take it from the ice cream manufacturer 
-      <a
-        href="https://www.benjerry.com/about-us/media-center/dismantle-white-supremacy"
-      >
-        Ben And Jerry's
-      </a>
-      ?
-    </p>
-    <div>
-      <blockquote
-        className="twitter-tweet"
-      >
-        <p
-          dir="ltr"
-          lang="en"
-        >
-          The murder of George Floyd was the result of inhumane police brutality that is perpetuated by a culture of white supremacy.
-           
-          <a
-            href="https://t.co/YppGJKHkyN"
-          >
-            https://t.co/YppGJKHkyN
-          </a>
-           
-          <a
-            href="https://t.co/YABzgQMf69"
-          >
-            pic.twitter.com/YABzgQMf69
-          </a>
-        </p>
-        — Ben & Jerry's (@benandjerrys)
-         
-        <a
-          href="https://twitter.com/benandjerrys/status/1267875868673794048?ref_src=twsrc%5Etfw"
-        >
-          June 2, 2020
-        </a>
-      </blockquote>
-      <script
-        async={true}
-        charSet="utf-8"
-        src="https://platform.twitter.com/widgets.js"
-      />
-    </div>
-    <p>
-      How about popular comedian 
-      <a
-        href="https://www.youtube.com/watch?v=qUZIzYwmEDE"
-      >
-        James Corden
-      </a>
-      ?
-    </p>
-    <div>
-      <iframe
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen=""
-        frameBorder="0"
-        height="315"
-        src="https://www.youtube.com/embed/qUZIzYwmEDE"
-        title="James Corden: It's Time for Change in the US"
-        width="560"
-      />
-    </div>
-    <p>
-      Netflix?
-    </p>
-    <div>
-      <blockquote
-        className="twitter-tweet"
-      >
-        <p
-          dir="ltr"
-          lang="en"
-        >
-          To be silent is to be complicit. 
-          <br />
-          Black lives matter. 
-          <br />
-          <br />
-          We have a platform, and we have a duty to our Black members, employees, creators and talent to speak up.
-        </p>
-        — Netflix (@netflix)
-         
-        <a
-          href="https://twitter.com/netflix/status/1266829242353893376?ref_src=twsrc%5Etfw"
-        >
-          May 30, 2020
-        </a>
-      </blockquote>
-      <script
-        async={true}
-        charSet="utf-8"
-        src="https://platform.twitter.com/widgets.js"
-      />
-    </div>
-    <p>
-      Or the company I work with, 
-      <a
-        href="https://www.skillshare.com/blog/company/a-note-from-our-ceo-and-commitment-to-anti-racism?via=site-banner"
-      >
-        Skillshare
-      </a>
-      ?
-    </p>
-    <div
-      className="mt-6 flex space-x-4"
-    >
-      <a
-        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
-        href="/what-to-do"
-      >
-        Yeah, OK, but what can I do about it?
-      </a>
-    </div>
-  </main>
-  <footer
-    className="css-1bxtzlt"
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "0 1.0875rem 1.45rem",
+      }
+    }
   >
-    <p>
-      Compiled by 
-      <a
-        href="http://katy-ereira.co.uk"
+    <main>
+      <h1>
+        Why should I take it from you?
+      </h1>
+      <p>
+        Fair point.
+      </p>
+      <p>
+        Would you take it from the ice cream manufacturer 
+        <a
+          href="https://www.benjerry.com/about-us/media-center/dismantle-white-supremacy"
+        >
+          Ben And Jerry's
+        </a>
+        ?
+      </p>
+      <div>
+        <blockquote
+          className="twitter-tweet"
+        >
+          <p
+            dir="ltr"
+            lang="en"
+          >
+            The murder of George Floyd was the result of inhumane police brutality that is perpetuated by a culture of white supremacy.
+             
+            <a
+              href="https://t.co/YppGJKHkyN"
+            >
+              https://t.co/YppGJKHkyN
+            </a>
+             
+            <a
+              href="https://t.co/YABzgQMf69"
+            >
+              pic.twitter.com/YABzgQMf69
+            </a>
+          </p>
+          — Ben & Jerry's (@benandjerrys)
+           
+          <a
+            href="https://twitter.com/benandjerrys/status/1267875868673794048?ref_src=twsrc%5Etfw"
+          >
+            June 2, 2020
+          </a>
+        </blockquote>
+        <script
+          async={true}
+          charSet="utf-8"
+          src="https://platform.twitter.com/widgets.js"
+        />
+      </div>
+      <p>
+        How about popular comedian 
+        <a
+          href="https://www.youtube.com/watch?v=qUZIzYwmEDE"
+        >
+          James Corden
+        </a>
+        ?
+      </p>
+      <div>
+        <iframe
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen=""
+          frameBorder="0"
+          height="315"
+          src="https://www.youtube.com/embed/qUZIzYwmEDE"
+          title="James Corden: It's Time for Change in the US"
+          width="560"
+        />
+      </div>
+      <p>
+        Netflix?
+      </p>
+      <div>
+        <blockquote
+          className="twitter-tweet"
+        >
+          <p
+            dir="ltr"
+            lang="en"
+          >
+            To be silent is to be complicit. 
+            <br />
+            Black lives matter. 
+            <br />
+            <br />
+            We have a platform, and we have a duty to our Black members, employees, creators and talent to speak up.
+          </p>
+          — Netflix (@netflix)
+           
+          <a
+            href="https://twitter.com/netflix/status/1266829242353893376?ref_src=twsrc%5Etfw"
+          >
+            May 30, 2020
+          </a>
+        </blockquote>
+        <script
+          async={true}
+          charSet="utf-8"
+          src="https://platform.twitter.com/widgets.js"
+        />
+      </div>
+      <p>
+        Or the company I work with, 
+        <a
+          href="https://www.skillshare.com/blog/company/a-note-from-our-ceo-and-commitment-to-anti-racism?via=site-banner"
+        >
+          Skillshare
+        </a>
+        ?
+      </p>
+      <div
+        className="mt-6 flex space-x-4"
       >
-        Katy Ereira
-      </a>
-       /
-       
-      <a
-        href="http://twitter.com/maccath"
-      >
-        @maccath
-      </a>
-       | Fist icon by
-       
-      <a
-        href="https://thenounproject.com/cesarreynoso562/"
-      >
-        Cesar Reynoso
-      </a>
-    </p>
-  </footer>
+        <a
+          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          href="/what-to-do"
+        >
+          Yeah, OK, but what can I do about it?
+        </a>
+      </div>
+    </main>
+    <footer
+      className="css-1bxtzlt"
+    >
+      <p>
+        Compiled by 
+        <a
+          href="http://katy-ereira.co.uk"
+        >
+          Katy Ereira
+        </a>
+         /
+         
+        <a
+          href="http://twitter.com/maccath"
+        >
+          @maccath
+        </a>
+         | Fist icon by
+         
+        <a
+          href="https://thenounproject.com/cesarreynoso562/"
+        >
+          Cesar Reynoso
+        </a>
+      </p>
+    </footer>
+  </div>
 </div>
 `;
