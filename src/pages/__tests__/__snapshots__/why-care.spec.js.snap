@@ -4,117 +4,126 @@ exports[`Why Care? page renders correctly 1`] = `
 <div
   style={
     Object {
-      "margin": "0 auto",
-      "maxWidth": 960,
-      "padding": "0 1.0875rem 1.45rem",
+      "opacity": 1,
+      "transition": "opacity 500ms ease-in-out",
     }
   }
 >
-  <main>
-    <h1>
-      Why should I care?
-    </h1>
-    <p>
-      Although the resources I've posted so far reference racism in the USA - it
+  <div
+    style={
+      Object {
+        "margin": "0 auto",
+        "maxWidth": 960,
+        "padding": "0 1.0875rem 1.45rem",
+      }
+    }
+  >
+    <main>
+      <h1>
+        Why should I care?
+      </h1>
+      <p>
+        Although the resources I've posted so far reference racism in the USA - it
 is not a problem exclusive to America. The white supremacist culture
 exists in the UK too. We can see this in the following ways:
-    </p>
-    <ul>
-      <li>
-        Black males were 3.9 times more likely to die from COVID19 than the White
+      </p>
+      <ul>
+        <li>
+          Black males were 3.9 times more likely to die from COVID19 than the White
 group. Among females, death rates were 3.3 times higher in the Black ethnic
 group than the White group - according to 
-        <a
-          href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889195/disparities_review.pdf"
-        >
-          Public Health England review
-        </a>
-      </li>
-      <li>
-        There were 4 stop and searches for every 1,000 White people, compared with
+          <a
+            href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/889195/disparities_review.pdf"
+          >
+            Public Health England review
+          </a>
+        </li>
+        <li>
+          There were 4 stop and searches for every 1,000 White people, compared with
 38 for every 1,000 Black people - according to 
-        <a
-          href="https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest#by-ethnicity"
-        >
-          Government statistics
-        </a>
-      </li>
-      <li>
-        Black people were most likely to be detained under the Mental Health Act
+          <a
+            href="https://www.ethnicity-facts-figures.service.gov.uk/crime-justice-and-the-law/policing/stop-and-search/latest#by-ethnicity"
+          >
+            Government statistics
+          </a>
+        </li>
+        <li>
+          Black people were most likely to be detained under the Mental Health Act
 in the year to March 2019, with 306.8 detentions per 100,000 people. White
 people had the lowest rate of detention – 72.9 detentions per 100,000 people -
 according to 
+          <a
+            href="https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest#by-ethnicity-5-ethnic-groups"
+          >
+            Government statistics
+          </a>
+        </li>
+      </ul>
+      <p>
+        In reference to the current issues facing America, the 
         <a
-          href="https://www.ethnicity-facts-figures.service.gov.uk/health/mental-health/detentions-under-the-mental-health-act/latest#by-ethnicity-5-ethnic-groups"
+          href="https://www.amnesty.org.uk/press-releases/usa-protests-uk-should-review-exports-security-equipment-us-police-forces"
         >
-          Government statistics
+          UK government could be unwittingly supporting police violence by exporting riot gear including rubber bullets
         </a>
-      </li>
-    </ul>
-    <p>
-      In reference to the current issues facing America, the 
-      <a
-        href="https://www.amnesty.org.uk/press-releases/usa-protests-uk-should-review-exports-security-equipment-us-police-forces"
-      >
-        UK government could be unwittingly supporting police violence by exporting riot gear including rubber bullets
-      </a>
-      .
+        .
 Such export of items likely to be used for internal repression is against UK
 policy. The UK has 
-      <a
-        href="https://www.independent.co.uk/news/world/americas/america-is-running-out-of-lethal-injection-drugs-because-of-a-european-embargo-to-end-the-death-10106933.html"
+        <a
+          href="https://www.independent.co.uk/news/world/americas/america-is-running-out-of-lethal-injection-drugs-because-of-a-european-embargo-to-end-the-death-10106933.html"
+        >
+          refused to supply chemicals for execution of prisoners in the USA which has derailed capital punishment in the US
+        </a>
+        .
+      </p>
+      <p>
+        <strong>
+          Our policies and actions can and do make a difference around the world.
+        </strong>
+      </p>
+      <div
+        class="mt-6 flex space-x-4"
       >
-        refused to supply chemicals for execution of prisoners in the USA which has derailed capital punishment in the US
-      </a>
-      .
-    </p>
-    <p>
-      <strong>
-        Our policies and actions can and do make a difference around the world.
-      </strong>
-    </p>
-    <div
-      class="mt-6 flex space-x-4"
+        <a
+          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          href="/who-cares"
+        >
+          Why should I take it from you?
+        </a>
+        <a
+          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          href="/what-to-do"
+        >
+          That's pretty damning.
+        </a>
+      </div>
+    </main>
+    <footer
+      className="css-1bxtzlt"
     >
-      <a
-        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
-        href="/who-cares"
-      >
-        Why should I take it from you?
-      </a>
-      <a
-        class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
-        href="/what-to-do"
-      >
-        That's pretty damning.
-      </a>
-    </div>
-  </main>
-  <footer
-    className="css-1bxtzlt"
-  >
-    <p>
-      Compiled by 
-      <a
-        href="http://katy-ereira.co.uk"
-      >
-        Katy Ereira
-      </a>
-       /
-       
-      <a
-        href="http://twitter.com/maccath"
-      >
-        @maccath
-      </a>
-       | Fist icon by
-       
-      <a
-        href="https://thenounproject.com/cesarreynoso562/"
-      >
-        Cesar Reynoso
-      </a>
-    </p>
-  </footer>
+      <p>
+        Compiled by 
+        <a
+          href="http://katy-ereira.co.uk"
+        >
+          Katy Ereira
+        </a>
+         /
+         
+        <a
+          href="http://twitter.com/maccath"
+        >
+          @maccath
+        </a>
+         | Fist icon by
+         
+        <a
+          href="https://thenounproject.com/cesarreynoso562/"
+        >
+          Cesar Reynoso
+        </a>
+      </p>
+    </footer>
+  </div>
 </div>
 `;

@@ -14,6 +14,7 @@ import { MDXProvider } from "@mdx-js/react"
 import Footer from "./footer"
 import SEO from "./seo"
 import { Link } from "gatsby"
+import PageTransition from "gatsby-plugin-page-transitions"
 
 const shortcodes = { Link, SEO }
 
@@ -30,18 +31,20 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <MDXProvider components={shortcodes}>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0 1.0875rem 1.45rem`,
-          }}
-        >
-          <main>{children}</main>
-          <Footer></Footer>
-        </div>
-      </MDXProvider>
+      <PageTransition transitionTime={500}>
+        <MDXProvider components={shortcodes}>
+          <div
+            style={{
+              margin: `0 auto`,
+              maxWidth: 960,
+              padding: `0 1.0875rem 1.45rem`,
+            }}
+          >
+            <main>{children}</main>
+            <Footer></Footer>
+          </div>
+        </MDXProvider>
+      </PageTransition>
     </>
   )
 }
