@@ -89,22 +89,22 @@ in the curriculum of compulsory  education in the U.K.
           </a>
         </li>
       </ul>
-      <div
-        className="mt-6 flex space-x-4"
+      <nav
+        className="css-1b6p5hc"
       >
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/donate"
         >
           I have some spare cash.
         </a>
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/learn"
         >
           I care and want to learn more.
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"

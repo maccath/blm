@@ -147,22 +147,22 @@ Racism
            by Reni Eddo-Lodge
         </li>
       </ul>
-      <div
-        className="mt-6 flex space-x-4"
+      <nav
+        className="css-1b6p5hc"
       >
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/donate"
         >
           I have some spare cash.
         </a>
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/amplify"
         >
           I'd like to show solidarity.
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"

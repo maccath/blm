@@ -131,16 +131,16 @@ exports[`Who Cares? page renders correctly 1`] = `
         </a>
         ?
       </p>
-      <div
-        className="mt-6 flex space-x-4"
+      <nav
+        className="css-1b6p5hc"
       >
         <a
-          class="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
+          className="flex-initial rounded-lg bg-white text-purple p-3 no-underline"
           href="/what-to-do"
         >
           Yeah, OK, but what can I do about it?
         </a>
-      </div>
+      </nav>
     </main>
     <footer
       className="flex justify-center space-x-5 css-1bxtzlt"
