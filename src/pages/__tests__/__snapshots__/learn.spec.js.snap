@@ -27,7 +27,7 @@ exports[`Learn page renders correctly 1`] = `
 and focus on anti-racist education.
       </p>
       <h2>
-        Watch and listen
+        Videos and Documentaries
       </h2>
       <div>
         <iframe
@@ -70,14 +70,79 @@ and focus on anti-racist education.
             Watch 13TH on Netflix
           </a>
         </li>
+      </ul>
+      <h2>
+        Podcasts
+      </h2>
+      <ul>
         <li>
           <a
             href="http://laylafsaad.com/good-ancestor-podcast"
           >
             The Good Ancestor Podcast
           </a>
+           - An interview series with change-makers & culture-shapers exploring what it means to be a good ancestor. 
+        </li>
+        <li>
+          <a
+            href="https://www.aboutracepodcast.com/"
+          >
+            About Race with Reni Eddo-Lodge
+          </a>
+           - Featuring key voices from the last few decades of anti-racist activism, About Race with Reni Eddo-Lodge looks at the recent history that lead to the politics of today.
+        </li>
+        <li>
+          <a
+            href="https://hope-hard-pills.simplecast.com/"
+          >
+            Hope & Hard Pills
+          </a>
+           - Exploring practical insight on racial justice and social change.
+        </li>
+        <li>
+          <a
+            href="https://nowhitesaviors.org/what-we-do/podcast/"
+          >
+            No White Saviors
+          </a>
+           - Our collective experience in the development & the aid sector has led us to a deep commitment to seeing things change in a more equitable & anti-racist direction.
         </li>
       </ul>
+      <h2>
+        Campaigns 
+        &
+         Resources
+      </h2>
+      <h3>
+        <a
+          href="https://www.8toabolition.com/"
+        >
+          8 To Abolition
+        </a>
+      </h3>
+      <blockquote>
+        <p>
+          The end goal of these reforms is not to create better, friendlier, or more
+community-oriented police or prisons. Instead, we hope to build toward a
+society without police or prisons, where communities are equipped to provide
+for their safety and wellbeing.
+        </p>
+      </blockquote>
+      <h3>
+        <a
+          href="https://transformharm.org/"
+        >
+          Transform Harm
+        </a>
+      </h3>
+      <blockquote>
+        <p>
+          TransformHarm.org is a resource hub about ending violence. It offers an
+introduction to transformative justice. Created by Mariame Kaba and designed
+by Lu Design Studio, the site includes selected articles, audio-visual
+resources, curricula, and more. 
+        </p>
+      </blockquote>
       <h2>
         Articles 
         &
@@ -99,6 +164,14 @@ and focus on anti-racist education.
             If You Are White And Anti-Racist, This Non-Optical Allyship Guide Is Required Reading
           </a>
            - Mireille Cassandra Harper
+        </li>
+        <li>
+          <a
+            href="https://medium.com/@OfcrACab/confessions-of-a-former-bastard-cop-bb14d17bc759"
+          >
+            Confessions of a Former Bastard Cop
+          </a>
+           - Anonymous former Californian Police Officer
         </li>
       </ul>
       <h2>
